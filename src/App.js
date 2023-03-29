@@ -26,6 +26,7 @@ class App extends Component {
       return monster.name.includes(this.state.searchField);
     });
 
+    // original
     return (
       <div className="App">
         <input
