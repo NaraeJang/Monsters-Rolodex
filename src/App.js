@@ -53,7 +53,7 @@ class App extends Component {
         />
         {filteredMonsters.map((monster) => {
           return (
-            <div id="monster.id">
+            <div id={monster.id}>
               <h1>{monster.name}</h1>
             </div>
           );
